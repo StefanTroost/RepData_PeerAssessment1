@@ -105,5 +105,3 @@ averagedActivityData<-rbind(AverageDailyPatternWeekday,AverageDailyPatternWeeken
 library(lattice)
 xyplot(averagedActivityData$steps ~ averagedActivityData$interval | averagedActivityData$dayType,xlab="Interval",ylab="average number of steps",type="l",layout=c(1,2))
 ```
-
-
